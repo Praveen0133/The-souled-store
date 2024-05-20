@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+</head>
+<style>
+    #inside{
+        background-color: rgb(205, 214, 231);
+        border: 1px solid black;
+        width: 100%;
+    }
+    input{
+        padding: 10px;
+        border-radius: 10px;
+        width: 80%;
+    margin: 15px 64px;
+    }
+    #no{
+        display: block;
+    margin-left: 10px;
+    }
+    #btn1{
+        width: 110px;
+        padding: 10px;
+    }
+    #btn2{
+        width: 110px;
+        padding: 10px;
+        background-color: darkcyan;
+        color: white;
+    }
+    #inside button{
+        border: 1px solid black;
+        border-radius: 16px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 16px;
+
+    }
+
+</style>
+<body>
+<div style="width: 50%;">
+    <h1 style="text-align: center;">Register with The Souled Store</h1>
+    <from>
+        <div style="margin-bottom: 20px;">
+            <button id="btn1">LOGIN</button>
+            <button id="btn2">REGISTER</button>
+        </div>
+        <div id="inside">
+            <button>Feacbook</button>
+            <button>Google</button>
+            <h1 style="text-align: center;">--or--</h1>
+            <div>
+                <div>
+                    <input type="text" placeholder="First Name*">
+                </div>
+                <div>
+                    <input type="text" placeholder="Last Name*">
+                </div>
+            </div>
+            <input type="email" placeholder="Email*">
+            <input type="password" placeholder="Choose New Password">
+            <input type="password" placeholder="Confirm Password">
+            <input type="date" placeholder="Please enter your birthday" id="birth">
+            <label for="birth" id="no">(Avail 10% birthday discount as a member) </label>
+            <input type="tel" placeholder="Mobile Number(for order status update)">
+            <div>
+                <label for="gen">Gender</label>
+                <input type="radio" id="gen" name="gen">Male
+                <input type="radio"  name="gen">Female
+                <input type="radio"  name="gen">other
+            </div> 
+            <button>REGISTER</button>
+            <div>
+                <h3 style="text-align: center;">Already a Customer ? <a href="#" style="color: red; text-decoration: none;">Login</a></h3>
+            </div>
+        </div>
+    </from>
+</div>
+</body>
+</html>
